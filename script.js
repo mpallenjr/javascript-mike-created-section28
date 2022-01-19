@@ -349,5 +349,8 @@ const age = 30;
 // Conditional (Ternary) Operator
 age >= 18 ?  // condition
 console.log('I like to drink whiskey 🥃') : //if statement
-console.log('I like to drink water 💧') //else statement
+console.log('I like to drink water 💧'); //else statement
 
+// this condition can be turned into a variable
+const drink = age >= 18 ? 'whiskey 🥃' : 'water 💧';
+console.log(drink); // and the variable can be called later
