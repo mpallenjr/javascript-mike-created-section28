@@ -369,3 +369,4 @@ console.log(drink2)
 //Below is a ternary operator used with a template literal 
 console.log(`I like to drink ${age >= 18 ? 'whiskey 🥃' : 'water 💧'}`)
 
+//  When you have larger blocks of code to execute based on a decision, you should be using an if else statement, where a ternary operator is used to make a quick descision and for template literls. 
