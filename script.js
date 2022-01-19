@@ -344,3 +344,10 @@ if (23 >10) {
 }
 // provides a comparison but does not actually produce a value
 */
+
+const age = 30;
+// Conditional (Ternary) Operator
+age >= 18 ?  // condition
+console.log('I like to drink whiskey 🥃') : //if statement
+console.log('I like to drink water 💧') //else statement
+
