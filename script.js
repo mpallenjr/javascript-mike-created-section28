@@ -363,3 +363,9 @@ if(age >= 18) {
 }
 console.log(drink2)
 //above is a comparison if else statment to prove the conditional operator has the same outcomes. 
+
+
+//Ternary operator is what I need to say
+//Below is a ternary operator used with a template literal 
+console.log(`I like to drink ${age >= 18 ? 'whiskey 🥃' : 'water 💧'}`)
+
