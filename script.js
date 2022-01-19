@@ -354,3 +354,12 @@ console.log('I like to drink water 💧'); //else statement
 // this condition can be turned into a variable
 const drink = age >= 18 ? 'whiskey 🥃' : 'water 💧';
 console.log(drink); // and the variable can be called later
+
+let drink2;
+if(age >= 18) {
+  drink2 = 'whiskey 🥃';
+} else {
+  drink2 = 'water 💧';
+}
+console.log(drink2)
+//above is a comparison if else statment to prove the conditional operator has the same outcomes. 
